@@ -5,7 +5,7 @@ import {flushSync} from "react-dom";
 import Script from "next/script";
 import AsciiVideo from "@/app/components/AsciiVideo";
 
-const sentence = "Uplift With Uniqueness . Cats Always Touch";
+const sentence = "Never Ordinary Never Normal Always Handmade";
 const words = sentence.split(" ");
 
 // ---------------- 缓动 ----------------
@@ -179,8 +179,10 @@ const splitWord = (w: string): Split => {
 const splits = words.map(splitWord);
 
 const LINKS = [
-    {label: "X", href: "https://x.com/DaHuangCore"},
-    {label: "Github", href: "https://github.com/CtrlcvsNya"},
+    //{label: "Store", href: "https://store.nonnahstudios.com"},
+    {label: "Ko-fi", href: "https://ko-fi.com/nonnahstudios"},
+    {label: "Patreon", href: "https://www.patreon.com/cw/NonnahStudios"},
+    {label: "Discord", href: "http://discord.gg/NK87pYxZgK"},
 ];
 
 const clamp = (v: number, a: number, b: number) => Math.min(b, Math.max(a, v));
@@ -272,8 +274,8 @@ const LOGO_POINTS =
 // swarm 里被光标拖来拖去、上色的那个 logo：和下面的 <Logo/> 同形同色同光晕，最后无缝换成真的
 const LOGO_SWARM = {
     svg: `<svg viewBox="0 0 123 123" fill="currentColor"><polygon points="${LOGO_POINTS}"/></svg>`,
-    color: "#ceff1c",
-    glow: "drop-shadow(0 0 12px rgba(206,255,28,0.45))",
+    color: "#f772f0",
+    glow: "drop-shadow(0 0 12px rgba(247, 114, 240, 0.62))",
 };
 
 /**
@@ -595,7 +597,7 @@ export default function Home() {
         <div className={`fixed inset-0 overflow-hidden overscroll-none touch-none select-none${fx ? " crt-jolt" : ""}`}>
             {/* 背景：字符视频，电视“开机”时开始“解码”扫描入场并播放（swarm 不拍它，用下面的黑屏替身） */}
             <div data-swarm-ignore="">
-                <AsciiVideo src="/media/kitten-540p.mp4" revealed={tv} playing={tv} className="fixed inset-0 z-0"/>
+                <AsciiVideo src="/media/Talia_Showcase_1080p.mp4" revealed={tv} playing={tv} className="fixed inset-0 z-0"/>
             </div>
             {/* 第二轮重建时的“关着的电视”：一块玻璃屏 + 一条条复制出来的扫描线；开机时撤掉 */}
             {standIn && (
@@ -737,7 +739,7 @@ export default function Home() {
                                             className="mt-2 pl-10 md:pl-12 font-mono text-[11px] leading-relaxed tracking-wide text-white/50"
                                             {...fadeUp(1.0, animated)}
                                         >
-                                            In a cat’s eyes, all things belong to dreams.
+                                            I create avatars that feel just as real as you.
                                         </motion.p>
                                     </div>
 
@@ -769,9 +771,8 @@ export default function Home() {
                                             className="font-mono text-[10px] uppercase leading-relaxed tracking-[0.16em] text-white/35 md:text-right"
                                             {...fadeUp(1.3, animated)}
                                         >
-                                            © CTRLCVS@UWU.CAT
+                                            © CONTACT@NONNAHSTUDIOS.COM
                                             <br/>
-                                            not for sale, AI last.
                                         </motion.p>
                                     </div>
                                 </div>

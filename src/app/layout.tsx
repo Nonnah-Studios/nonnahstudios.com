@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "In a cat’s eyes, all things belong to dreams.",
-  description: "UWU.CAT — Uplift With Uniqueness . Cats Always Touch",
+  title: "Nonnah Studios",
+  description: "NONNAH — Never Ordinary Never Normal Always Handmade",
 };
 
 export default function RootLayout({
