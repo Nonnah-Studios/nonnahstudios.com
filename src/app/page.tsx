@@ -180,6 +180,7 @@ const splits = words.map(splitWord);
 
 const LINKS = [
     //{label: "Store", href: "https://store.nonnahstudios.com"},
+    {label: "Instagram", href: "https://www.instagram.com/nonnah_studios"},
     {label: "Ko-fi", href: "https://ko-fi.com/nonnahstudios"},
     {label: "Patreon", href: "https://www.patreon.com/cw/NonnahStudios"},
     {label: "Discord", href: "http://discord.gg/NK87pYxZgK"},
