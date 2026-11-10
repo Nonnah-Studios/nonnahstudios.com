@@ -774,8 +774,7 @@ export default function Home() {
                                         >
                                             © CONTACT@NONNAHSTUDIOS.COM
                                             <br/>
-                                            Made by SupahFox
-                                            Fork by CtrlcvsNya
+                                            Made by SupahFox | Fork by CtrlcvsNya
                                         </motion.p>
                                     </div>
                                 </div>
