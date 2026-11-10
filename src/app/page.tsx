@@ -179,7 +179,7 @@ const splitWord = (w: string): Split => {
 const splits = words.map(splitWord);
 
 const LINKS = [
-    //{label: "Store", href: "https://store.nonnahstudios.com"},
+    {label: "Store", href: "https://store.nonnahstudios.com"},
     {label: "Instagram", href: "https://www.instagram.com/nonnah_studios"},
     {label: "Ko-fi", href: "https://ko-fi.com/nonnahstudios"},
     {label: "Patreon", href: "https://www.patreon.com/cw/NonnahStudios"},
@@ -774,6 +774,8 @@ export default function Home() {
                                         >
                                             © CONTACT@NONNAHSTUDIOS.COM
                                             <br/>
+                                            Made by SupahFox
+                                            Fork by CtrlcvsNya
                                         </motion.p>
                                     </div>
                                 </div>
